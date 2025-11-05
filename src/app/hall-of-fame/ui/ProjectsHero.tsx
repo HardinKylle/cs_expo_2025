@@ -4,7 +4,7 @@ import PixelBlast from "@/components/global/PixelBlast"
 
 export function ProjectsHero({ pageTitle, pageDesc }: { pageTitle: string; pageDesc: string }) {
   return (
-    <section className="relative mx-auto flex h-[85vh] flex-col items-center justify-center  text-center">
+    <section className="relative mx-auto flex h-screen flex-col items-center justify-center  text-center">
       {/* Pixel background */}
       <div className="absolute inset-0 z-0 cursor-pointer -bottom-40">
         <PixelBlast
